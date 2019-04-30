@@ -1,2 +1,3 @@
-"# exact-nearest-neighbor-search" \n
+"# exact-nearest-neighbor-search" 
+
 Find ground truth of nearest neighbor for SIFT
