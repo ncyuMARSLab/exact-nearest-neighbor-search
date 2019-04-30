@@ -1,0 +1,8 @@
+﻿  Source_SIFT.cpp
+d:\find groundtruth in 1b\find groundtruth in 1b\myfunction\file_to_array.h(54): warning C4244: '=': 將 'double' 轉換為 'unsigned char'，由於類型不同，可能導致資料遺失
+  正在產生程式碼
+  8 of 401 functions ( 2.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成程式碼產生
+  Find Groundtruth in 1B.vcxproj -> D:\Find Groundtruth in 1B\x64\Release\Find Groundtruth in 1B.exe
