@@ -1,10 +1,17 @@
-This project finds the ground truth of nearest neighbor for SIFT.  
-It requires at least 128G RAM.  
+This repository finds the exact nearest neighbors from SIFT1B.  
 
-It calculates 5 queries per time.  
+It requires 2 input data, query and SIFT1B.  
+SIFT1B is divided into 10 segments(SIFT100M).  
 
-In line 173  
+It finds the nearest neighbors of 5 queries per time.  
+To compute the distances between 5 queries and SIFT1B, it requires at least 128G RAM.  
+
+In line 173:  
 
     for (int q = 6415; q < QUERY_NUM; q += QUERY_PER_TIME) {
     
-This project start at q-th query.  
+The process starts with the index q of query, the q+1th query.  
+When the process stops anomalously.  
+Removing the latest 5 results from the output file and modifying 'q' into the index of the 1st removed result.  
+Then changing the ouput filename and restarting the process.  
+After all queries are completely processed, merging all output files.  
