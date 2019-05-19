@@ -1,6 +1,6 @@
 ## Introduction ##
 This repository finds the exact nearest neighbors from SIFT1B.  
-It works on Windows with Visual Studio C++ project.  
+It works on Windows with Visual Studio.  
 
 ## Input Data ##
 It requires 2 input data, query and SIFT1B.  
