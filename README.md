@@ -1,7 +1,13 @@
+## Introduction ##
 This repository finds the exact nearest neighbors from SIFT1B.  
+It works on Windows with Visual Studio C++ project.  
 
+## Input Data ##
 It requires 2 input data, query and SIFT1B.  
 SIFT1B is divided into 10 segments(SIFT100M).  
+
+## Usage ##
+Building the project with Visual Studio on Windows.
 
 It finds the nearest neighbors of 5 queries per time.  
 To compute the distances between 5 queries and SIFT1B, it requires at least 128G RAM.  
